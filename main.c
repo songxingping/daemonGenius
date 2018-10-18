@@ -311,7 +311,7 @@ int main(int argc, char const *argv[])
         
         sigsuspend(&set);
     }
-    if(restartTimes = 0){
+    if(restartTimes == 0){
         fprintf(logFile,"too many restart times\n");
     }
     if(!debugMode){
